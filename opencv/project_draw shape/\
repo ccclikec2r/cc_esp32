@@ -1,0 +1,25 @@
+#include <opencv2/opencv.hpp>
+#include<iostream>
+
+using namespace cv;
+using namespace std;
+
+int main(void)
+{
+    Mat img = Mat::zeros(Size(1024,1024),CV_8UC3);//huabu
+    Mat cc = imread("cc.jpg");
+    if(cc.empty())
+    {
+        cout << "error!" << endl;
+        return -1;
+    }
+
+    circle(img,Point(50,50),50,Scalar(255,255,255),-1);//full
+    circle(img,Point(160,50),50,Scalar(255,255,255),3);//none
+
+    line(img,Point(300,300),Point(300,400),Scalar(255,255,255),2,LINE_4,0);
+
+    imshow("img",img);
+    waitKey(0);
+    return 0;
+}

@@ -1,0 +1,3 @@
+/home/cc/Desktop/opencv/qrcode/CMakeFiles/rebuild_cache.dir
+/home/cc/Desktop/opencv/qrcode/CMakeFiles/edit_cache.dir
+/home/cc/Desktop/opencv/qrcode/CMakeFiles/cc.dir

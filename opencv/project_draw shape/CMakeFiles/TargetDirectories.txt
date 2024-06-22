@@ -1,0 +1,3 @@
+/home/cc/Desktop/opencv/project_draw shape/CMakeFiles/rebuild_cache.dir
+/home/cc/Desktop/opencv/project_draw shape/CMakeFiles/edit_cache.dir
+/home/cc/Desktop/opencv/project_draw shape/CMakeFiles/cc.dir

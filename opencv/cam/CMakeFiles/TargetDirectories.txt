@@ -1,0 +1,3 @@
+/home/cc/Desktop/opencv/cam/CMakeFiles/rebuild_cache.dir
+/home/cc/Desktop/opencv/cam/CMakeFiles/edit_cache.dir
+/home/cc/Desktop/opencv/cam/CMakeFiles/cc.dir
