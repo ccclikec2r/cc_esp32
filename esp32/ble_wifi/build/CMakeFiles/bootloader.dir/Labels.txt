@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/cc/esp32/ble_wifi/build/CMakeFiles/bootloader
+/home/cc/esp32/ble_wifi/build/CMakeFiles/bootloader.rule
+/home/cc/esp32/ble_wifi/build/CMakeFiles/bootloader-complete.rule
+/home/cc/esp32/ble_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/cc/esp32/ble_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/cc/esp32/ble_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/cc/esp32/ble_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/cc/esp32/ble_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/cc/esp32/ble_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/cc/esp32/ble_wifi/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
