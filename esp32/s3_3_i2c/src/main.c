@@ -19,18 +19,11 @@ void app_main(void)
         ESP_ERROR_CHECK(nvs_flash_erase());
         ret = nvs_flash_init();
     }
-    
-    i2c_init();
-    gpio_init();
 
+    i2c_init();
     while(1)
     {
-        bool kk = i2c_receive();
-        if(kk == true)
-        {
-            gpio_set_level(GPIO_NUM_1,!gpio_get_level(GPIO_NUM_1));
-            printf("read data: %x %x\n",read_buffer[0],read_buffer[1]);
-        }
+
         vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
